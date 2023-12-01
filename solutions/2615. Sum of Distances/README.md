@@ -68,5 +68,5 @@ $
 & (2i+2-n)a_{i} - 2*\sum_{j=0}^{i} a_j + \sum_{j=0}^{n} a_j. 
 \end{align}
 $
-# Complexity
+### Complexity
 - Time complexity: $$O(n^2)$$
