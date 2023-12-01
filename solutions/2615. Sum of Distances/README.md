@@ -45,8 +45,6 @@ Return the array `arr`.
   Since each element in nums is distinct, arr[i] = 0 for all i.
   ```
 
- 
-
 ## Constraints:
 ```
     1 <= nums.length <= 105
