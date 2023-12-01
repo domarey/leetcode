@@ -31,7 +31,7 @@ Return the array `arr`.
 
 ## Example 2:
 - Input:
-  ```nums = [0,5,3]```
+  ``` nums = [0,5,3]```
 - Output:
   ```[0,0,0]```
 - Explanation:
