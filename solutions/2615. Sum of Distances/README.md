@@ -2,6 +2,7 @@
 # 2615. Sum of Distances
 # Overview
 - [Description](#description)
+  - [Example 1](#example-1)
 - [Solution explanation](#solution-explanation)
 
 # Description
