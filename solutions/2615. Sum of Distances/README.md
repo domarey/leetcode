@@ -14,7 +14,7 @@ You are given a 0-indexed integer array `nums`. There exists an array `arr` of l
 
 Return the array `arr`.
 
-## Example 1:
+### Example 1:
 - Input:
   ```
   nums = [1,3,1,1,2]
@@ -31,7 +31,7 @@ Return the array `arr`.
   When i = 4, arr[4] = 0 because there is no other index with value 2. 
   ```
 
-## Example 2:
+### Example 2:
 - Input:
   ```
   nums = [0,5,3]
@@ -45,7 +45,7 @@ Return the array `arr`.
   Since each element in nums is distinct, arr[i] = 0 for all i.
   ```
 
-## Constraints:
+### Constraints:
 ```
     1 <= nums.length <= 105
     0 <= nums[i] <= 109
