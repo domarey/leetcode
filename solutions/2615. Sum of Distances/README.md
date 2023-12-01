@@ -52,7 +52,7 @@ Return the array `arr`.
 ```
 
 # Solution explanation
-For each $x_i$ in $nums$, collect all the indices where $x_i$ occurs: $\overrightarrow{a_{x_i}} = [a_{x_i,0}, a_{x_i,1}, \dots, a_{x_i,n}]$.
+For each $x_i$ in `nums`, collect all the indices where $x_i$ occurs: $\overrightarrow{a_{x_i}} = [a_{x_i,0}, a_{x_i,1}, \dots, a_{x_i,n}]$.
 We have that `arr[i]` $= \sum_{j=0}^{n} |a_{{x_i},i} - a_{{x_i},j}|$
 
 For example:
