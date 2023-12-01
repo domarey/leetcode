@@ -64,10 +64,10 @@ For each $x_i$, it holds ($x_i$ omitted for simplicity):
 $`
 \begin{align}
 \sum_{j=0}^{n} |a_{i} - a_{j}| = {}\\
-& (a_{i} - a_{0}) + (a_{i} - a_{1}) + \dots + (a_{i} - a_{i}) + (a_{i+1} - a_{i}) + \dots + (a_{n} - a_{i}) = \\
-& (i+1)a_{i} - \sum_{j=0}^{i} a_j + \sum_{j=i+1}^{n} a_j - (n+1-i-2)a_i = \\
-& (2i+2-n)a_{i} - \sum_{j=0}^{i} a_j + \sum_{j=i+1}^{n} a_j + (\sum_{j=0}^{i} a_j - \sum_{j=0}^{i} a_j) = \\
-& (2i+2-n)a_{i} - 2*\sum_{j=0}^{i} a_j + \sum_{j=0}^{n} a_j. 
+& = (a_{i} - a_{0}) + (a_{i} - a_{1}) + \dots + (a_{i} - a_{i}) + (a_{i+1} - a_{i}) + \dots + (a_{n} - a_{i}) = \\
+& = (i+1)a_{i} - \sum_{j=0}^{i} a_j + \sum_{j=i+1}^{n} a_j - (n+1-i-2)a_i = \\
+& = (2i+2-n)a_{i} - \sum_{j=0}^{i} a_j + \sum_{j=i+1}^{n} a_j + (\sum_{j=0}^{i} a_j - \sum_{j=0}^{i} a_j) = \\
+& = (2i+2-n)a_{i} - 2*\sum_{j=0}^{i} a_j + \sum_{j=0}^{n} a_j. 
 \end{align}
 `$
 
