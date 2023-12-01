@@ -1,7 +1,7 @@
 
 # 2615. Sum of Distances
-[Description](#description)
-Solution explanation
+- [Description](#description)
+- [Solution explanation](#solution-explanation)
 
 # Description
 Link here
@@ -35,3 +35,4 @@ Constraints:
     1 <= nums.length <= 105
     0 <= nums[i] <= 109
 
+# Solution explanation
