@@ -1,6 +1,6 @@
 
 # 2615. Sum of Distances
-[Description][#description]
+[Description](#description)
 Solution explanation
 
 # Description
