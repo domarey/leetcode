@@ -31,11 +31,14 @@ Return the array `arr`.
 
 ## Example 2:
 - Input:
-  ``` nums = [0,5,3]```
+  ```
+  nums = [0,5,3]```
 - Output:
-  ```[0,0,0]```
+  ```
+  [0,0,0]```
 - Explanation:
-  ```Since each element in nums is distinct, arr[i] = 0 for all i.```
+  ```
+  Since each element in nums is distinct, arr[i] = 0 for all i.```
 
  
 
