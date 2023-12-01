@@ -3,6 +3,8 @@
 # Overview
 - [Description](#description)
   - [Example 1](#example-1)
+  - [Example 2](#example-2)
+  - [Constraints](#constraints)
 - [Solution explanation](#solution-explanation)
 
 # Description
@@ -32,19 +34,23 @@ Return the array `arr`.
 ## Example 2:
 - Input:
   ```
-  nums = [0,5,3]```
+  nums = [0,5,3]
+  ```
 - Output:
   ```
-  [0,0,0]```
+  [0,0,0]
+  ```
 - Explanation:
   ```
-  Since each element in nums is distinct, arr[i] = 0 for all i.```
+  Since each element in nums is distinct, arr[i] = 0 for all i.
+  ```
 
  
 
-Constraints:
-
+## Constraints:
+```
     1 <= nums.length <= 105
     0 <= nums[i] <= 109
+```
 
 # Solution explanation
