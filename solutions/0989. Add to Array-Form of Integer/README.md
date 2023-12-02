@@ -8,7 +8,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here]([https://leetcode.com/problems/sum-of-distances/description/](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)).
+Original [here](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/).
 
 Given the `root` of an n-ary tree, return the preorder traversal of its nodes' values.
 
