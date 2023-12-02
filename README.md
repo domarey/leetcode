@@ -3,9 +3,9 @@
         <table>
             <thead>
                 <tr>
-                    <th scope="col">Country</th>
-                    <th scope="col">Area</th>
-                    <th scope="col">Population_Rural</th>
+                    <th scope="col">Problem</th>
+                    <th scope="col">Difficulty</th>
+                    <th scope="col">Topics</th>
                     <th scope="col">Population_Total</th>
                     <th scope="col">GDP_Total</th>
                 </tr>
@@ -24,31 +24,3 @@
             </tbody>
         </table>
 </smart-table>
-
-<html>
-
-<head>
-    <title>Table Overview Demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="../../source/styles/smart.default.css" />
-    <script type="text/javascript" src="../../scripts/data.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    
-</head>
-
-<body class="viewport">
-    <div class="demo-description">
-		<h1>Table Component</h1>
-        Table with 100,000 records. Our Table web component can be used to wrap or replace standard Tables and add different styles, hover effects,
-        sorting by one or multiple columns, filtering, grouping, tree mode, add, remove and update rows. <br/>
-		<br/>
-    </div>
-    <smart-table column-menu filtering sortable virtualization id="table"></smart-table>
-
-    <!-- scripts -->
-    <script type="module" src="../../source/modules/smart.table.js"></script>
-    <script type="module" src="index.js"></script>
-
-</body>
-
-</html>
