@@ -16,6 +16,7 @@ Nary-Tree input serialization is represented in their level order traversal. Eac
 
 ### Example 1:
 - Input:
+  ![Example 1](https://github.com/domarey/leetcode/blob/main/solutions/0989.%20Add%20to%20Array-Form%20of%20Integer/img/example1.png)
   ```
   root = [1,null,3,2,4,null,5,6]
   ```
