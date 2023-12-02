@@ -21,7 +21,7 @@ Nary-Tree input serialization is represented in their level order traversal. Eac
   root = [1,null,3,2,4,null,5,6]
   ```
 - Output:
-- <img src="../img/example2" width="128"/>
+- <img src="img/example2" width="128"/>
   ```
   [1,3,5,6,2,4]
   ```
