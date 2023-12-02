@@ -44,4 +44,11 @@ Nary-Tree input serialization is represented in their level order traversal. Eac
 
 
 # Solution explanation
-
+### sol-recursive.py
+Traverse the tree recursively
+### sol-iterative.py
+For the iterative solution, we can use a stack:
+- push the root;
+- repeat until the stack is not empty:
+    - pop the first element of the stack;
+    - push all its childen in reverse order.
