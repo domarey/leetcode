@@ -8,7 +8,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/sum-of-distances/description/).
+Original [here]([https://leetcode.com/problems/sum-of-distances/description/](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)).
 
 Given the `root` of an n-ary tree, return the preorder traversal of its nodes' values.
 
@@ -19,7 +19,7 @@ Nary-Tree input serialization is represented in their level order traversal. Eac
   ```
   root = [1,null,3,2,4,null,5,6]
   ```
-  <img src="img/example1.png" width="512"/>
+  <img src="img/example1.png" width="256"/>
 - Output:
   ```
   [1,3,5,6,2,4]
@@ -42,12 +42,6 @@ Nary-Tree input serialization is represented in their level order traversal. Eac
 - `0 <= Node.val <= 10^4`
 - The height of the n-ary tree is less than or equal to `1000`.
 
-```
-    1 <= nums.length <= 105
-    0 <= nums[i] <= 109
-```
 
 # Solution explanation
 
-### Complexity
-- Time complexity: $O(n^2)$
