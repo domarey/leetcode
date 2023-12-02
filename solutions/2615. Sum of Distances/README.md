@@ -58,9 +58,9 @@ We have that `arr[i]` $= \sum_{j=0}^{n} |a_{{x_i},i} - a_{{x_i},j}|$
 
 For example:
 
-If `nums` $= [1,3,1,1,2]$ and we consider $i=0$, we have that $x_0 = 1$ and $\overrightarrow{a_{1}} = [0,2,3]$. So `arr[0]` is:
+If `nums` $= [1,3,1,1,2]$ and we consider $i=0$, we have that $x_0 = 1$ and $\overrightarrow{a_{1}} = [0,2,3]$. So
 ```math
-= \sum_{j=0}^{2} |a_{1,i} - a_{1,j}|= |0-0|+|0-2|+|0-3| = 5
+`arr[0]` = \sum_{j=0}^{2} |a_{1,i} - a_{1,j}|= |0-0|+|0-2|+|0-3| = 5
 ```
 
 
