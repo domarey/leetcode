@@ -11,7 +11,11 @@
                 </tr>
             </thead>
             <tbody>
-                <tr><td>Brazil</td><td>8515767</td><td>0.15</td><td>205809000</td><td>2353025</td></tr>
+                <tr><td>Brazil</td><td>8515767</td>
+                        <td>0.15
+                        0.123
+                        </td>
+                        <td>205809000</td><td>2353025</td></tr>
                 <tr><td>China</td><td>9388211</td><td>0.46</td><td>1375530000</td><td>10380380</td></tr>
                 <tr><td>France</td><td>675417</td><td>0.21</td><td>64529000</td><td>2846889</td></tr>
                 <tr><td>Germany</td><td>357021</td><td>0.25</td><td>81459000</td><td>3859547</td></tr>
