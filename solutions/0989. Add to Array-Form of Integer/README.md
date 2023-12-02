@@ -7,11 +7,13 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/).
+Original [here](https://leetcode.com/problems/add-to-array-form-of-integer/description/).
 
-Given the `root` of an n-ary tree, return the preorder traversal of its nodes' values.
+The \textbf{array form} of an integer `num` is an array representing its digits in left to right order.
 
-Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value.
+For example, for `num = 1321`, the array form is `[1,3,2,1]`.
+
+Given `num`, the array-form of an integer, and an integer k, return the array-form of the integer num + k.
 
 ### Example 1:
 - Input:
