@@ -1,5 +1,5 @@
 
-# 2615. Sum of Distances
+# 589. N-ary Tree Preorder Traversal
 # Overview
 - [Description](#description)
   - [Example 1](#example-1)
