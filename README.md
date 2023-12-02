@@ -1,4 +1,5 @@
 # leetcode
+<!--
 <smart-table>
         <table>
             <thead>
@@ -39,3 +40,4 @@
             </tbody>
         </table>
 </smart-table>
+-->
