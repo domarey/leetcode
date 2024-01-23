@@ -1,4 +1,4 @@
-# 2859. Sum of Values at Indices With K Set Bits
+# 0338. Counting Bits
 # Overview
 - [Description](#description)
   - [Example 1](#example-1)
