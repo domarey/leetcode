@@ -7,7 +7,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/power-of-two/description/).
+Original [here](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/).
 
 
 ### Example 1:
