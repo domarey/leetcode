@@ -1,4 +1,4 @@
-# 0338. Counting Bits
+# 2657. Find the Prefix Common Array of Two Arrays
 # Overview
 - [Description](#description)
   - [Example 1](#example-1)
