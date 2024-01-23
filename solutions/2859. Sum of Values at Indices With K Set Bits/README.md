@@ -7,7 +7,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/).
+Original [here](https://leetcode.com/problems/sum-of-values-at-indices-with-k-set-bits/description/).
 
 Given the `root` of an n-ary tree, return the preorder traversal of its nodes' values.
 
@@ -41,13 +41,3 @@ Nary-Tree input serialization is represented in their level order traversal. Eac
 - `0 <= Node.val <= 10^4`
 - The height of the n-ary tree is less than or equal to `1000`.
 
-
-# Solution explanation
-### sol-recursive.py
-Traverse the tree recursively
-### sol-iterative.py
-For the iterative solution, we can use a stack:
-- push the root;
-- repeat until the stack is not empty:
-    - pop the first element of the stack;
-    - push all its childen in reverse order.
