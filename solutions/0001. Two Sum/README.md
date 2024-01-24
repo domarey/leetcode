@@ -7,7 +7,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/power-of-two/description/).
+Original [here](https://leetcode.com/problems/two-sum/description/).
 
 Given an integer n, return true if it is a power of two. Otherwise, return false.
 
