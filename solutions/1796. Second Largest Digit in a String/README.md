@@ -8,7 +8,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/flipping-an-image/description/).
+Original [here](https://leetcode.com/problems/second-largest-digit-in-a-string/description/).
 
 
 ### Example 1:
