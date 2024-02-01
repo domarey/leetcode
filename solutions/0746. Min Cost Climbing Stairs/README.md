@@ -1,4 +1,4 @@
-# 0338. Counting Bits
+# 0746. Min Cost Climbing Stairs
 # Overview
 - [Description](#description)
   - [Example 1](#example-1)
