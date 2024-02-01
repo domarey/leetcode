@@ -1,2 +1,2 @@
 
-Build an array dp where dp[i] is the minimum cost to climb to the top starting from the ith staircase.
+Create an array mincost where mincost[i] is the minimum cost to climb that staircase (the i-th staircase).
