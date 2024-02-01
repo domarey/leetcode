@@ -7,7 +7,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/flipping-an-image/description/).
+Original [here](https://leetcode.com/problems/min-cost-climbing-stairs/description/).
 
 
 ### Example 1:
