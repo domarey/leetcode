@@ -10,9 +10,9 @@
 # Description
 Original [here](https://leetcode.com/problems/climbing-stairs/description/).
 
-Given an integer n, return true if it is a power of two. Otherwise, return false.
+You are climbing a staircase. It takes n steps to reach the top.
 
-An integer n is a power of two, if there exists an integer x such that n == 2x.
+Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
 ### Example 1:
 
@@ -22,3 +22,8 @@ An integer n is a power of two, if there exists an integer x such that n == 2x.
 
 
 ### Constraints:
+
+# Solution explanation:
+The problem is similar to the Fibonacci problem.
+
+The implementation is done iteratively (the recursive way exceeds time limits).
