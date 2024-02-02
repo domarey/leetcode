@@ -46,10 +46,8 @@ Return the array `arr`.
   ```
 
 ### Constraints:
-```
-    1 <= nums.length <= 105
-    0 <= nums[i] <= 109
-```
+- 1 <= nums.length <= $10^5$
+- 0 <= nums[i] <= 109
 
 # Solution explanation
 For each $x_i$ in `nums`, collect all the indices where $x_i$ occurs: $\overrightarrow{a_{x_i}} = [a_{x_i,0}, a_{x_i,1}, \dots, a_{x_i,n}]$.
