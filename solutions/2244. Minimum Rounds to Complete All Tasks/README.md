@@ -39,30 +39,11 @@ Return the minimum rounds required to complete all the tasks, or -1 if it is not
 - $1 <=$ `tasks[i]` $<= 10^9$
 
 # Solution explanation
-For each $x_i$ in `nums`, collect all the indices where $x_i$ occurs: $\overrightarrow{a_{x_i}} = [a_{x_i,0}, a_{x_i,1}, \dots, a_{x_i,n}]$.
-We have that 
-```math
-\text{arr[i]} = \sum_{j=0}^{n} |a_{{x_i},i} - a_{{x_i},j}|
-```
-
-For example:
-
-If `nums` $= [1,3,1,1,2]$ and we consider $i=0$, we have that $x_0 = 1$ and $\overrightarrow{a_{1}} = [0,2,3]$. So
-```math
-\text{arr[0]} = \sum_{j=0}^{2} |a_{1,i} - a_{1,j}|= |0-0|+|0-2|+|0-3| = 5
-```
-
-
-For each $x_i$, it holds ($x_i$ omitted for simplicity):
-$`
-\begin{align}
-\sum_{j=0}^{n} |a_{i} - a_{j}| = {}\\
-& = (a_{i} - a_{0}) + (a_{i} - a_{1}) + \dots + (a_{i} - a_{i}) + (a_{i+1} - a_{i}) + \dots + (a_{n} - a_{i}) = \\
-& = (i+1)a_{i} - \sum_{j=0}^{i} a_j + \sum_{j=i+1}^{n} a_j - (n+1-i-2)a_i = \\
-& = (2i+2-n)a_{i} - \sum_{j=0}^{i} a_j + \sum_{j=i+1}^{n} a_j + (\sum_{j=0}^{i} a_j - \sum_{j=0}^{i} a_j) = \\
-& = (2i+2-n)a_{i} - 2*\sum_{j=0}^{i} a_j + \sum_{j=0}^{n} a_j. 
-\end{align}
-`$
-
-### Complexity
-- Time complexity: $O(n^2)$
+- Sort `tasks`.
+- Count how many tasks are the same difficulty.
+- When the difficulty changes, check if you already computed the minimum rounds for the frequency of the current task in `countTasks`: `countTasks[i]` is the minimum rounds for a task done (frequency) `i` times. If not compute it:
+  - for `i` (frequencies) < 2: impossible (-1) since you can only do 2 or 3 tasks;
+  - for `i` equal to 2 or 3: 1 round;
+  - for `i` > 3: check the rounds for the tasks with frequencies corresponding to `i-2` and `i-3`, pick the smallest non-negative one and add one round.
+  For example:
+  If the frequency of a task is $6$, I need to check which frequency between $4$ and $3$ requires less rounds: $4$ requires $2$ rounds (of $2$) while $3$ requires only $1$.
