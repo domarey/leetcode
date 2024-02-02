@@ -36,7 +36,7 @@ Return the minimum rounds required to complete all the tasks, or -1 if it is not
 
 ### Constraints:
 ```
-    1 <= tasks.length <= 10^5
+    1 <= tasks.length <= $10^5$
     1 <= tasks[i] <= 10^9
 ```
 
