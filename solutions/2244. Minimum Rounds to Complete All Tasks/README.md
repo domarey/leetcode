@@ -10,9 +10,9 @@
 # Description
 Original [here](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/).
 
-You are given a 0-indexed integer array `nums`. There exists an array `arr` of length `nums.length`, where `arr[i]` is the sum of `|i - j|` over all `j` such that `nums[j] == nums[i]` and `j != i`. If there is no such `j`, set `arr[i]` to be `0`.
+You are given a 0-indexed integer array `tasks`, where `tasks[i]` represents the difficulty level of a task. In each round, you can complete either 2 or 3 tasks of the same difficulty level.
 
-Return the array `arr`.
+Return the minimum rounds required to complete all the tasks, or -1 if it is not possible to complete all the tasks.
 
 ### Example 1:
 - Input:
