@@ -35,10 +35,8 @@ Return the minimum rounds required to complete all the tasks, or -1 if it is not
   ```
 
 ### Constraints:
-```
-    1 <= tasks.length <= $10^5$
-    1 <= tasks[i] <= 10^9
-```
+- $1 <=$ `tasks.length` $<= $10^5$
+- $1 <=$ `tasks[i]` $<= 10^9$
 
 # Solution explanation
 For each $x_i$ in `nums`, collect all the indices where $x_i$ occurs: $\overrightarrow{a_{x_i}} = [a_{x_i,0}, a_{x_i,1}, \dots, a_{x_i,n}]$.
