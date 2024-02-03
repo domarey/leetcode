@@ -39,7 +39,7 @@ Return the minimum rounds required to complete all the tasks, or -1 if it is not
 - $1 <=$ `tasks[i]` $<= 10^9$
 
 # Solution explanation
-- Sort `tasks`.
+- Sort `tasks` (optional; not done in `solution.cpp`)
 - Count how many tasks are the same difficulty.
 - When the difficulty changes, check if you already computed the minimum rounds for the frequency of the current task in `countTasks`: `countTasks[i]` is the minimum rounds for a task done (frequency) `i` times. If not compute it:
   - for `i` (frequencies) < 2: impossible (-1) since you can only do 2 or 3 tasks;
