@@ -21,7 +21,7 @@ Return the number of pairs of points where you can place Chisato and Takina, suc
 ### Example 1:
 - Input:
 
-  <img src="img/example1.png" width="300"/>
+  <img src="img/example1.png" width="400"/>
   
   ```
   points = [[1,1],[2,2],[3,3]]
