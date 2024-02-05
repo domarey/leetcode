@@ -20,10 +20,10 @@ Return the number of pairs of points where you can place Chisato and Takina, suc
 
 ### Example 1:
 - Input:
-  ```
-  root = [1,null,3,2,4,null,5,6]
-  ```
   <img src="img/example1.png" width="256"/>
+  ```
+  points = [[1,1],[2,2],[3,3]]
+  ```
 - Output:
   ```
   [1,3,5,6,2,4]
