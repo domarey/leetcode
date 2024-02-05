@@ -58,4 +58,9 @@ Return the number of pairs of points where you can place Chisato and Takina, suc
   ```
   
   ### Constraints:
+  - $2 <=$ `n` $<= 50$
+  - `points[i].length` $== 2$
+  - $0 <=$ `points[i][0]`, `points[i][1]` $<= 50$
+  - All `points[i]` are distinct.
+
 
