@@ -50,9 +50,10 @@ Given an integer `n`, return the **least** number of perfect square numbers that
    - if not, for each perfect square `p` that is less then `m`, calculate $remainder_{m,p} = m - p$
    - the cost of `m` is the minimum among the $costs$ of the calculated $remainder_{m,p} + 1$.
 ### Example:
-`n = 12`
-The perfect squares that are less then `n` are $p = {1, 4, 9}$.
-So  $remainder_{m,p_1} = 12-1= 11$, $remainder_{m,p_2} = 12-4= 8 $ and $remainder_{m,p_3} = 12-9=3$.
+Let's consider `n = 12`. The perfect squares that are less then `n` are $p = {1, 4, 9}$.
+
+So  $remainder_{m,p_1} = 12-1= 11$, $remainder_{m,p_2} = 12-4= 8$ and $remainder_{m,p_3} = 12-9=3$.
+
 The cost of `n` is $min(cost(11),cost(8),cost(3))+1= min(3,2,3)+1= 3$
 
 
