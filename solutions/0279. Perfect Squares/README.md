@@ -43,4 +43,8 @@ Given an integer `n`, return the **least** number of perfect square numbers that
 ### Constraints:
 - $1 <=$ `n` $<= 10^4$
 
-# Solution explanation
+# Solution explanation:
+1) First generate the perfect squares up to n;
+2) then build the array of costs in the following way:
+   - if `m` is a perfect square, its cost is $1$;
+   - if not, for each perfect square `p` that is less then `m`, calculate $remainder_{m,p} = m - p$
