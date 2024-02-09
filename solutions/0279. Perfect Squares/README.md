@@ -48,4 +48,4 @@ Given an integer `n`, return the **least** number of perfect square numbers that
 2) then build the array of costs in the following way (Fibonacci-like method):
    - if `m` is a perfect square, its cost is $1$;
    - if not, for each perfect square `p` that is less then `m`, calculate $remainder_{m,p} = m - p$
-   - the cost of `m` is the minimum among the calculated $remainder_{m,p}$.
+   - the cost of `m` is the minimum among the calculated $remainder_{m,p} + 1$.
