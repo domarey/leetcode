@@ -9,9 +9,9 @@
 # Description
 Original [here](https://leetcode.com/problems/majority-element/description/).
 
-Given an integer n, return true if it is a power of two. Otherwise, return false.
+Given an array nums of size n, return the majority element.
 
-An integer n is a power of two, if there exists an integer x such that n == 2x.
+The majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.
 
 ### Example 1:
 
