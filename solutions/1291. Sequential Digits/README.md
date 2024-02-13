@@ -51,5 +51,5 @@ Beats 100% of the users:
 
 - In a string (`digits`), store digits from 1 to 9;
 - Loop over all possible substrings of length in $[$ `nlow` $,$ `nhigh` $]$, with `nlow`,`nhigh` being the number of digits in `low` and `high` respectively;
-- Convert each substring to an integer and check if it is within the given range.
+- Convert each substring to an integer and check if it is within `[low, high]` inclusive.
 
