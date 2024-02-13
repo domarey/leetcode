@@ -1,4 +1,4 @@
-# 1796. Second Largest Digit in a String
+# 2011. Final Value of Variable After Performing Operations
 
 # Overview
 - [Description](#description)
@@ -8,7 +8,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/second-largest-digit-in-a-string/description/).
+Original [here](https://leetcode.com/problems/final-value-or-varianle-after-performing-operations/description/).
 
 
 ### Example 1:
