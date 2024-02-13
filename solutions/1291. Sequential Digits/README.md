@@ -40,3 +40,4 @@ Return a **sorted** list of all the integers in the range `[low, high]` inclusiv
 
 
 ### Constraints:
+  - $10 <=$ `low` $<=$ `low` $<= 10^9$
