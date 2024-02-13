@@ -8,7 +8,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/final-value-or-variable-after-performing-operations/description/).
+Original [here](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/description/).
 
 
 ### Example 1:
