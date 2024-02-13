@@ -44,7 +44,7 @@ Return a **sorted** list of all the integers in the range `[low, high]` inclusiv
   - $10 <=$ `low` $<=$ `high` $<= 10^9$
 
 # Solution explanation
-Beats 100% of the C++ users:
+Beats 100% of the users:
 
 <img src="img/submission-results.png" width="400"/>
 
