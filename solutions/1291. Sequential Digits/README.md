@@ -46,6 +46,8 @@ Return a **sorted** list of all the integers in the range `[low, high]` inclusiv
 # Solution explanation
 Beats 100% of the C++ users:
 
+<img src="img/submission-results.png" width="400"/>
+
 
 - In a string (`digits`), store digits from 1 to 9;
 - Loop over all possible substrings of length in $[$ `nlow` $,$ `nhigh` $]$, with `nlow`,`nhigh` being the number of digits in `low` and `high` respectively;
