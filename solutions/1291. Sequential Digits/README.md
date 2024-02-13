@@ -44,9 +44,10 @@ Return a **sorted** list of all the integers in the range `[low, high]` inclusiv
   - $10 <=$ `low` $<=$ `high` $<= 10^9$
 
 # Solution explanation
+Beats 100% of the C++ users:
+
+
 - In a string (`digits`), store digits from 1 to 9;
-- Loop over all possible windows (with $window.size \in [number of digits in$ `low` $, number of digits in$ `high` $]$ 
-    For each substring, convert it to an integer.
-    If the converted integer is within the given range, add it to the vector a.
-    Sort the vector.
+- Loop over all possible substrings of length in $[$ `nlow` $,$ `nhigh` $]$, with `nlow`,`nhigh` being the number of digits in `low` and `high` respectively;
+- Convert each substring to an integer and check if it is within the given range.
 
