@@ -45,7 +45,7 @@ Return a **sorted** list of all the integers in the range `[low, high]` inclusiv
 
 # Solution explanation
 - In a string (`digits`), store digits from 1 to 9;
-- Loop over all possible windows (with $window.size \in [number of digits in `low`, number of digits in `high`]$ 
+- Loop over all possible windows (with $window.size \in [number of digits in $`low`$, number of digits in $`high`$]$ 
     For each substring, convert it to an integer.
     If the converted integer is within the given range, add it to the vector a.
     Sort the vector.
