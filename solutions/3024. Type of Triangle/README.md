@@ -1,4 +1,4 @@
-# 3024. Type of Triangle I
+# 3024. Type of Triangle
 
 # Overview
 - [Description](#description)
