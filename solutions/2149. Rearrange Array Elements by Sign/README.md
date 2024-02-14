@@ -61,4 +61,4 @@ $O(n)$
 ## Space complexity:
 $O(n)$
 
-Auxiliary space in worst case (when the first half of `nums` contains only negative elements): $n/2$
+Auxiliary space in the worst case (when the first half of `nums` contains only negative elements): $n/2$
