@@ -8,7 +8,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/type-of-triangle-ii/).
+Original [here](https://leetcode.com/problems/type-of-triangle-ii/description/).
 
 You are given a 0-indexed integer array `nums` of size 3 which can form the sides of a triangle.
 - A triangle is called equilateral if it has all sides of equal length.
