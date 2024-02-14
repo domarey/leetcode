@@ -57,8 +57,8 @@ Return the modified array after rearranging the elements to satisfy the aforemen
     - if the queue is not empty: if the current element `nums[i]` has the same sign as the elements in the queue, add it to the queue (because since in the previous iterations it wasn't possible to add the elements in the queue, the last element in `nums` that satisfy the conditions has the same sign as the elements in the queue); otherwise, add the current element and then the first element in queue.
 
 ## Time complexity:
- $O(n)$
+$O(n)$
 ## Space complexity:
-    $O(n)$
+$O(n)$
 
-Auxiliary space in worst case: $n/2$
+Auxiliary space in worst case (when the first half of `nums` contains only negative elements): $n/2$
