@@ -50,3 +50,15 @@ Return the modified array after rearranging the elements to satisfy the aforemen
 - $1 <= |$ `nums[i]` $| <= 10^5$;
 - `nums` consists of equal number of positive and negative integers.
 
+# Solution explanation
+- Check the sign of the first elements in `nums`.  If it's negative, add it to an auxiliary queue;
+- then for the next elements in `nums` (for $i=1 \dots n$):
+    - if the queue is empty (meaning that `nums[0...i-1]` satisfies the conditions), check if the current element `nums[i]` satisfies the conditions: if so, go on to the next element, otherwise, add it to the queue;
+    - if the queue is not empty: if the current element `nums[i]` has the same sign as the elements in the queue, add it to the queue (because since in the previous iterations it wasn't possible to add the elements in the queue, the last element in `nums` that satisfy the conditions has the same sign as the elements in the queue); otherwise, add the current element and then the first element in queue.
+
+## Time complexity:
+ $O(n)$
+## Space complexity:
+    $O(n)$
+
+Auxiliary space in worst case: $n/2$
