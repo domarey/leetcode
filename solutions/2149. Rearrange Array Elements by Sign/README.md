@@ -51,10 +51,12 @@ Return the modified array after rearranging the elements to satisfy the aforemen
 - `nums` consists of equal number of positive and negative integers.
 
 # Solution explanation
+The approach is to iterate over `nums`, rearranging its elements when they don't satisfy the conditions. An auxiliary queue is used.
+
 - Check the sign of the first elements in `nums`.  If it's negative, add it to an auxiliary queue;
 - then for the next elements in `nums` (for $i=1 \dots n$):
     - if the queue is empty (meaning that `nums[0...i-1]` satisfies the conditions), check if the current element `nums[i]` satisfies the conditions: if so, go on to the next element, otherwise, add it to the queue;
-    - if the queue is not empty: if the current element `nums[i]` has the same sign as the elements in the queue, add it to the queue (because since in the previous iterations it wasn't possible to add the elements in the queue, the last element in `nums` that satisfy the conditions has the same sign as the elements in the queue); otherwise, add the current element and then the first element in queue.
+    - if the queue is not empty, it means that only `nums[0...j]`, $j<i$ satisfies the conditions: if the current element `nums[i]` has the same sign as the elements in the queue, add it to the queue (because since in the previous iterations it wasn't possible to add the elements in the queue, `nums[j]` has the same sign as the elements in the queue); otherwise, save the current element at `nums[j+1]` and then the first element in queue at `nums[j+2]`.
 
 ## Time complexity:
 $O(n)$
