@@ -21,7 +21,6 @@ children and output the maximum number.
 - Input:
   ```
   g = [1,2,3]
-
   s = [1,1]
   ```
 - Output:
