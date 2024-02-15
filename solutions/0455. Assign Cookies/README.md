@@ -42,6 +42,5 @@ children and output the maximum number.
   ### Constraints:
   - $1 <=$ `g.length` $<= 3*10^4$;
   - $0 <=$ `s.length` $<= 3*10^4$;
-  - `s` consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
   - $1 <=$ `g[i]`, `s[j]` $<= 2^{31} - 1$.
 
