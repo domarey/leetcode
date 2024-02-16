@@ -48,7 +48,7 @@ Note:
   4193
   ```
 
-  ### Example 3:
+### Example 3:
 - Input:
   ```
   s="+-1"
@@ -58,7 +58,7 @@ Note:
   0
   ```
 
-   ### Example 4:
+### Example 4:
 - Input:
   ```
   s="  . -42"
