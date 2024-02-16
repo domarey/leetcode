@@ -40,5 +40,3 @@ Given an array of integers `arr` and an integer `k`. Find the least number of un
   - $1 <=$ `arr.length` $<= 10^5$;
   - $1 <=$ `arr[i]` $<= 10^9$;
   - $0 <=$ `k` $<=$ `arr.length`.
-
-# Solution explanation
