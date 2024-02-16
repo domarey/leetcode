@@ -4,6 +4,8 @@
 - [Description](#description)
   - [Example 1](#example-1)
   - [Example 2](#example-2)
+  - [Example 3](#example-3)
+  - [Example 4](#example-4)
   - [Constraints](#constraints)
 - [Solution explanation](#solution-explanation)
 
