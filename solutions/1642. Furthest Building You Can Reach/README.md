@@ -64,4 +64,5 @@ Return the furthest building index (0-indexed) you can reach if you use the give
   - $0 <=$ `ladders` $<=$ `heights.length`.
 
 # Solution explanation
+Iterate over the buildings: save the largest `ladders` jumps and the sum the remaining ones (these are the ones you use the bricks for), and stop whenever this sum exceeds `bricks`.
 
