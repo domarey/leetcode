@@ -61,7 +61,7 @@ Return the furthest building index (0-indexed) you can reach if you use the give
   - $1 <=$ `heights.length` $<= 10^5$;
   - $1 <=$ `heights[i]` $<= 10^6$;
   - $0 <=$ `bricks` $<= 10^9$;
-  - $0 <=$ `ladders` $<= `heights.length`.
+  - $0 <=$ `ladders` $<=$ `heights.length`.
 
 # Solution explanation
 
