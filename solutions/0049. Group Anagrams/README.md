@@ -19,43 +19,33 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 ### Example 1:
 - Input:
   ```
-  s="    -42"
   ```
 - Output:
   ```
-  -42
+  
   ```
 
 ### Example 2:
 - Input:
   ```
-  s="4193 with words"
   ```
 - Output:
   ```
-  4193
+
   ```
 
 ### Example 3:
 - Input:
   ```
-  s="+-1"
   ```
 - Output:
-  ```
-  0
-  ```
-
-### Example 4:
-- Input:
-  ```
-  s="  . -42"
-  ```
-- Output:
-  ```
-  0
   ```
   
+  ```
+
+  
 ### Constraints:
-  - $0 <=$ `s.length` $<= 200$;
-  - `s` consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'.
+  - $1 <=$ `strs.length` $<= 10^4$;
+  - $0 <=$ `strs[i].length` $<= 100$;
+  - `strs[i]` consists of lowercase English letters.
+
