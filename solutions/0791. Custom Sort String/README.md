@@ -54,7 +54,3 @@ Beats 100% of the users:
 
 <img src="img/submission-results.png" width="400"/>
 
-
-- In a string (`digits`), store digits from 1 to 9;
-- Loop over all possible substrings of length in $[$ `nlow` $,$ `nhigh` $]$, with `nlow`,`nhigh` being the number of digits in `low` and `high` respectively;
-- Convert each substring to an integer and check if it is within `[low, high]` inclusive.
