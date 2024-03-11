@@ -10,38 +10,44 @@
 # Description
 Original [here](https://leetcode.com/problems/custom-sort-string/description/).
 
-An integer has *sequential digits* if and only if each digit in the number is one more than the previous digit.
+You are given two strings `order` and `s`. All the characters of `order` are unique and were sorted in some custom order previously.
 
-Return a **sorted** list of all the integers in the range `[low, high]` inclusive that have sequential digits.
+Permute the characters of `s` so that they match the order that `order` was sorted. More specifically, if a character `x` occurs before a character `y` in order, then `x` should occur before `y` in the permuted string.
+
+Return any permutation of `s` that satisfies this property.
 
 
 ### Example 1:
 - Input:
   ```
-  low = 100
-  high = 300
+  order = "cba"
+  s = "abcd" 
   ```
   
 - Output:
   ```
-  [123,234]
+  "cbad"
   ```
 
 ### Example 2:
 - Input:
   ```
-  low = 1000
-  high = 13000
+  order = "bcafg"
+  s = "abcd" 
   ```
   
 - Output:
   ```
-  [1234,2345,3456,4567,5678,6789,12345]
+  "bcad"
   ```
-
 
 ### Constraints:
   - $10 <=$ `low` $<=$ `high` $<= 10^9$
+  - $1 <=$ `order.length` $<= 26$;
+  - $1 <=$ `s.length` $<= 200$;
+  - `order` and `s` consist of lowercase English letters;
+  - All the characters of `order` are **unique**.
+
 
 # Solution explanation
 Beats 100% of the users:
