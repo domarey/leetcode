@@ -55,6 +55,6 @@ Return the pivot integer `x`. If no such integer exists, return `-1`.
 
 
 # Solution explanation
-Beats 100% of the users:
+[Beats 100% of the users:](https://leetcode.com/problems/find-the-pivot-integer/solutions/4872391/beats-100/)
 
 <img src="img/submission-results.png" width="400"/>
