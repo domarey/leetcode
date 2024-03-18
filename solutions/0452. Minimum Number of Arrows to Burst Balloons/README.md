@@ -8,7 +8,7 @@
 - [Solution explanation](#solution-explanation)
 
 # Description
-Original [here](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-ballons/description/).
+Original [here](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/).
 
 
 
